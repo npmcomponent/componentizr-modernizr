@@ -1,0 +1,12 @@
+{
+  "name": "modernizr",
+  "description": "modernizr componentizd!",
+  "version": "",
+  "keywords": [],
+  "dependencies": {},
+  "scripts": [
+    "dist/modernizr-build.js",
+    "index.js"
+  ],
+  "styles": []
+}
