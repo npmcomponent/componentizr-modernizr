@@ -4904,7 +4904,7 @@ Test for animated png support.
 !*/
 /* DOC
 
-Tests for lossless webp support.
+Tests for non-alpha lossless webp support.
 
 */
 
@@ -4919,7 +4919,7 @@ Tests for lossless webp support.
       addTest('webplossless', image.width == 1, { aliases: ['webp-lossless'] });
     };
 
-    image.src = 'data:image/webp;base64,UklGRhoAAABXRUJQVlA4TA0AAAAvAAAAEAcQERGIiP4HAA==';
+    image.src = 'data:image/webp;base64,UklGRh4AAABXRUJQVlA4TBEAAAAvAAAAAAfQ//73v/+BiOh/AAA=';
   });
 
 /*!
@@ -4937,7 +4937,7 @@ Tests for lossless webp support.
 !*/
 /* DOC
 
-Tests for webp support.
+Tests for lossy, non-alpha webp support.
 
 */
 
@@ -4952,7 +4952,7 @@ Tests for webp support.
       addTest('webp', image.width == 1);
     };
 
-    image.src = 'data:image/webp;base64,UklGRiwAAABXRUJQVlA4ICAAAAAUAgCdASoBAAEAL/3+/3+CAB/AAAFzrNsAAP5QAAAAAA==';
+    image.src = 'data:image/webp;base64,UklGRiQAAABXRUJQVlA4IBgAAAAwAQCdASoBAAEAAwA0JaQAA3AA/vuUAAA=';
   });
 
 /*!
